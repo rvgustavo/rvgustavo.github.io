@@ -85,7 +85,7 @@ legend("topleft",legend=c("Grupo 1", "Grupo 2","Grupo 3"),
 
 2. Encontrar los centroides con K-Means fijando el método de inicialización de los centroides. Encuentre los centroides para $n_c$ inicializaciones aleatorias.
 
-Centroides
+Centroides con $n_{c}=10$  inicializaciones aleatorias.
 ```{r}
 
 set.seed(1234)
@@ -126,7 +126,7 @@ Covarianza de $x_3$
 cov(muestra_nosep_df$X1,muestra_nosep_df$X3)
 
 ```
-Hallando de nuevo los centroides
+Hallando de nuevo los centroides con $n_{c}=10$ inicializaciones aleatorias.
 
 ```{r}
 
