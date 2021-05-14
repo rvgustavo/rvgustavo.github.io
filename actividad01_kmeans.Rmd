@@ -1,6 +1,6 @@
 ---
 title: "Análisis de la estabilidad de los centroides en K-Medias en presencia de correlación"
-author: "Juan David Rivera,Sandra Milena Berrio, Gustavo Rendón, Verónica Garzón <br/> Universidad Nacional de Colombia - Sede Medellín <br/> Departamento de Ciencias de la Computación y de la Decisión <br/> Decisiones bajo incertidumbre (Optimización para aprendizaje de máquina)"
+author: "Juan David Rivera, Sandra Milena Berrio, Gustavo Rendón, Verónica Garzón <br/> Universidad Nacional de Colombia - Sede Medellín <br/> Departamento de Ciencias de la Computación y de la Decisión <br/> Decisiones bajo incertidumbre (Optimización para aprendizaje de máquina)"
 date: "Semestre 2021-01"
 output:
   html_document: default
