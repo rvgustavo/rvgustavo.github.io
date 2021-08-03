@@ -13128,7 +13128,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[1]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-python"><pre><span></span><span class="c1"># Carga de tensorflow</span>
@@ -13147,7 +13147,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[2]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-python"><pre><span></span><span class="c1"># Lectura del conjunto de datos MNIST:</span>
@@ -13183,7 +13183,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[3]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-python"><pre><span></span><span class="c1"># Ahora veamos la representación de varios dígitos a la vez:</span>
@@ -13229,7 +13229,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[4]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-python"><pre><span></span><span class="kn">from</span> <span class="nn">keras</span> <span class="kn">import</span> <span class="n">backend</span> <span class="k">as</span> <span class="n">K</span>
@@ -13252,7 +13252,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[5]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-python"><pre><span></span><span class="k">def</span> <span class="nf">plot_data</span><span class="p">(</span><span class="n">model</span><span class="p">,</span> <span class="n">history</span><span class="p">):</span>
@@ -13289,7 +13289,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[6]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-python"><pre><span></span><span class="n">optim</span> <span class="o">=</span> <span class="p">{</span>
@@ -14284,7 +14284,7 @@ Accuracy conjunto de validacion: 0.9757000207901001
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[7]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-python"><pre><span></span><span class="n">x_train_600</span> <span class="o">=</span> <span class="n">x_train</span><span class="p">[:</span><span class="mi">600</span><span class="p">,:,:]</span>
@@ -15273,9 +15273,17 @@ Accuracy conjunto de validacion: 0.8389999866485596
 </div>
 
 </div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Realizamos las diferencias entre los diferentes métodos y tasas de Aprendizaje, con el fin de observar cuales métodos y tasas tendrian una diferencia mucho más baja.</p>
+
+</div>
+</div>
+</div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[18]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-python"><pre><span></span><span class="n">df_comp</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">columns</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;optimizer&#39;</span><span class="p">,</span> <span class="s1">&#39;lr&#39;</span><span class="p">,</span> <span class="s1">&#39;accuracy_test&#39;</span><span class="p">,</span> <span class="s1">&#39;accuracy_train&#39;</span><span class="p">,</span> <span class="s1">&#39;loss&#39;</span><span class="p">,</span> <span class="s1">&#39;over&#39;</span><span class="p">])</span>
@@ -15325,7 +15333,7 @@ Accuracy conjunto de validacion: 0.8389999866485596
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[18]:</div>
+    <div class="prompt output_prompt">Out[&nbsp;]:</div>
 
 
 
@@ -15674,9 +15682,17 @@ Accuracy conjunto de validacion: 0.8389999866485596
 </div>
 
 </div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Para valores más positivos de estas diferencias sumadas concluiriamos entonces que los métodos con los datos completos fuerón buenos y se afectarón realmente con la reducción de datos, lo opuesto sucede con los valores negativos, dando indicios de que la reducción fue mejor para el método.</p>
+
+</div>
+</div>
+</div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[41]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-python"><pre><span></span><span class="n">df2</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="n">by</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;optimizer&#39;</span><span class="p">,</span> <span class="s1">&#39;dif_accuracy_test_comp_600&#39;</span><span class="p">,</span> <span class="s1">&#39;dif_accuracy_train_comp_600&#39;</span><span class="p">],</span> <span class="n">ascending</span><span class="o">=</span><span class="bp">False</span><span class="p">)</span>
@@ -15695,7 +15711,7 @@ Accuracy conjunto de validacion: 0.8389999866485596
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[41]:</div>
+    <div class="prompt output_prompt">Out[&nbsp;]:</div>
 
 
 
@@ -15768,9 +15784,24 @@ Accuracy conjunto de validacion: 0.8389999866485596
 </div>
 
 </div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Se observa entonces que el método RMSProp fue el menos afectado de echo, tuvoun mejor desempeño global con la reducción de los datos.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+
+</div>
+</div>
+</div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[45]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-python"><pre><span></span><span class="n">df2</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="n">by</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;lr&#39;</span><span class="p">,</span> <span class="s1">&#39;dif_accuracy_test_comp_600&#39;</span><span class="p">,</span> <span class="s1">&#39;dif_accuracy_train_comp_600&#39;</span><span class="p">],</span> <span class="n">ascending</span><span class="o">=</span><span class="bp">False</span><span class="p">)</span>
@@ -15789,7 +15820,7 @@ Accuracy conjunto de validacion: 0.8389999866485596
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[45]:</div>
+    <div class="prompt output_prompt">Out[&nbsp;]:</div>
 
 
 
@@ -15867,9 +15898,17 @@ Accuracy conjunto de validacion: 0.8389999866485596
 </div>
 
 </div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>El mismo análisis aplica para la tasa de aprendizaje siendo la 1.5 con menor diferencia en reducción de datos.</p>
+
+</div>
+</div>
+</div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[30]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-python"><pre><span></span>
@@ -15885,7 +15924,7 @@ Accuracy conjunto de validacion: 0.8389999866485596
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[30]:</div>
+    <div class="prompt output_prompt">Out[&nbsp;]:</div>
 
 
 
@@ -15986,14 +16025,15 @@ Accuracy conjunto de validacion: 0.8389999866485596
 </ul>
 </li>
 <li><p>¿Cuál fue el método que más rápido convergió?</p>
+</li>
+</ol>
+<p>Observando las imagenes para el batch donde la perdida parece estabilizarse al igual que el Accuracy concluimos que:</p>
 <ul>
 <li><p>Para el set de datos completo el RSMprop convergió más rápido con la tasa de aprendizaje de 0.1</p>
 </li>
 <li><p>Para el set de datos reducido el SGD y el RSMprop convergieron máás rápido con la tasa de aprendizaje 0.1</p>
 </li>
 </ul>
-</li>
-</ol>
 <h2 id="Fuentes-Utilizadas:">Fuentes Utilizadas:<a class="anchor-link" href="#Fuentes-Utilizadas:">&#182;</a></h2><p>Team, K. (s. f.-a). Keras documentation: Losses. Keras API Reference. Recuperado 30 de julio de 2021, de <a href="https://keras.io/api/losses/">https://keras.io/api/losses/</a></p>
 <p>Team, K. (s. f.-b). Keras documentation: Optimizers. Keras API Reference. Recuperado 30 de julio de 2021, de <a href="https://keras.io/api/optimizers/">https://keras.io/api/optimizers/</a></p>
 <p>Team, K. (s. f.-c). Keras documentation: metrics. Keras API Reference. Recuperado 30 de julio de 2021, de <a href="https://keras.io/api/metrics/">https://keras.io/api/metrics/</a></p>
